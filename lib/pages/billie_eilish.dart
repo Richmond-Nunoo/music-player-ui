@@ -90,7 +90,7 @@ class _BillieEilishState extends State<BillieEilish> {
                decoration:  BoxDecoration(
                  borderRadius: BorderRadius.circular(10),
                  image:const DecorationImage(
-                     image: AssetImage("drawables/abc1.jpg"), 
+                     image: AssetImage("assets/abc1.jpg"), 
                      fit: BoxFit.cover
                      ),
                     )
@@ -117,7 +117,7 @@ class _BillieEilishState extends State<BillieEilish> {
                decoration:  BoxDecoration(
                  borderRadius: BorderRadius.circular(10),
                  image:const DecorationImage(
-                     image: AssetImage('drawables/pl2.jfif'), 
+                     image: AssetImage('assets/pl2.jfif'), 
                      fit: BoxFit.cover
                      ),
                     )
@@ -143,7 +143,7 @@ class _BillieEilishState extends State<BillieEilish> {
                decoration:  BoxDecoration(
                  borderRadius: BorderRadius.circular(10),
                  image:const DecorationImage(
-                     image: AssetImage('drawables/pl3.jfif'), 
+                     image: AssetImage('assets/pl3.jfif'), 
                      fit: BoxFit.cover
                      ),
                     )
@@ -169,7 +169,7 @@ class _BillieEilishState extends State<BillieEilish> {
                decoration:  BoxDecoration(
                  borderRadius: BorderRadius.circular(10),
                  image:const DecorationImage(
-                     image: AssetImage('drawables/pl4.jfif'), 
+                     image: AssetImage('assets/pl4.jfif'), 
                      fit: BoxFit.cover
                      ),
                     )
