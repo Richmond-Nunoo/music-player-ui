@@ -4,7 +4,6 @@ import 'package:music_player_ui/models/artist_model.dart';
 import 'package:music_player_ui/models/playlist_model.dart';
 import 'package:music_player_ui/pages/billie_eilish.dart';
 import 'package:music_player_ui/pages/now_playing.dart';
-
 import '../custom_widgets/albumn_cards.dart';
 
 

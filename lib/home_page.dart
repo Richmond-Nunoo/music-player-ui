@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:music_player_ui/pages/albumn.dart';
+import 'package:music_player_ui/pages/album.dart';
 import 'package:music_player_ui/pages/artists.dart';
 import 'package:music_player_ui/pages/podcasts.dart';
 
@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
-        // backgroundColor:Colors.grey.shade100,
+        backgroundColor: Colors.grey.shade100,
         appBar: AppBar(
           leading: const Icon(
             Icons.search_outlined,
@@ -47,7 +47,6 @@ class HomePage extends StatelessWidget {
             ],
           ),
         ),
-
         body: const TabBarView(
           children: [
             AlbumnPage(),
