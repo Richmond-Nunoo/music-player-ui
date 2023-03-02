@@ -30,11 +30,13 @@ class ArtisteGrid extends StatelessWidget {
               height: 5,
             ),
             Expanded(
-              child: Text(modelList.name,
-                  style: const TextStyle(
-                      color: Colors.black54,
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold)),
+              child: Text(
+                modelList.name,
+                style: const TextStyle(
+                    color: Colors.black54,
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold),
+              ),
             )
           ],
         ),
