@@ -18,8 +18,8 @@ class ArtisteGrid extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              width: 150,
-              height: 160,
+              width: 140,
+              height: 130,
               decoration: BoxDecoration(
                   borderRadius: const BorderRadius.all(Radius.circular(8)),
                   image: DecorationImage(

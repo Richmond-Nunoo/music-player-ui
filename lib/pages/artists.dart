@@ -13,7 +13,7 @@ class ArtistsPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 20),
       child: GridView.count(
         crossAxisCount: 2,
-        crossAxisSpacing: 0,
+        crossAxisSpacing: 1,
         mainAxisSpacing: 5,
         shrinkWrap: true,
         children: List.generate(listmodels.length, (index) {
